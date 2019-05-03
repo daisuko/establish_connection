@@ -8,3 +8,5 @@ environment = (ENV['e'] || :development).to_sym
 Bundler.require :default, environment
 
 establish_connection environment
+
+binding.pry
